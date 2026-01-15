@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!DOCTYPE html> 
 <html lang="en">
 <head>
 <meta charset="UTF-8" />
@@ -21,112 +21,61 @@
 }
 </script>
 
+<script type="application/ld+json">
+{
+"@context":"https://schema.org",
+"@type":"FAQPage",
+"mainEntity":[
+{"@type":"Question","name":"Do you provide academic writing and thesis support?","acceptedAnswer":{"@type":"Answer","text":"Yes. AssignHub provides academic writing, editing, and research support for students and PhD scholars."}},
+{"@type":"Question","name":"Is the work plagiarism free?","acceptedAnswer":{"@type":"Answer","text":"Yes. All documents are checked for originality, referencing, and academic integrity."}},
+{"@type":"Question","name":"Do you support international students?","acceptedAnswer":{"@type":"Answer","text":"Yes. AssignHub supports students and researchers from India, the UK, USA, Canada, and Australia."}},
+{"@type":"Question","name":"Do you provide PhD thesis help in India?","acceptedAnswer":{"@type":"Answer","text":"Yes. We support PhD scholars in India with thesis structuring, editing, and research support."}},
+{"@type":"Question","name":"Do you help with journal paper revisions?","acceptedAnswer":{"@type":"Answer","text":"Yes. We improve research manuscripts based on reviewer comments and journal standards."}}
+]
+}
+</script>
+
 <style>
 *{box-sizing:border-box}
-body{
-margin:0;
-font-family:'Segoe UI',Tahoma,sans-serif;
-color:#1f2937;
-line-height:1.7;
-background:linear-gradient(135deg,#eef6ff,#fff7e6);
-scroll-behavior:smooth;
-}
+body{margin:0;font-family:'Segoe UI',Tahoma,sans-serif;color:#1f2937;line-height:1.7;background:linear-gradient(135deg,#eef6ff,#fff7e6);scroll-behavior:smooth}
 
-header{
-padding:90px 10%;
-display:grid;
-grid-template-columns:1fr 1fr;
-align-items:center;
-gap:40px;
-background:linear-gradient(135deg,#e0ecff,#fff);
-}
-
+header{padding:90px 10%;display:grid;grid-template-columns:1fr 1fr;align-items:center;gap:40px;background:linear-gradient(135deg,#e0ecff,#fff)}
 h1{font-size:52px;color:#1e3a8a;margin:0}
 h2{color:#1e3a8a;font-size:34px;margin-bottom:20px}
 h3{color:#1e3a8a}
-
 .tagline{font-size:22px;margin:20px 0;color:#374151}
 
-.btn{
-display:inline-block;
-padding:15px 34px;
-background:#d4a14a;
-color:white;
-border-radius:40px;
-text-decoration:none;
-font-weight:700;
-transition:.3s;
-box-shadow:0 10px 25px rgba(0,0,0,.2);
-}
+.btn{display:inline-block;padding:15px 34px;background:#d4a14a;color:white;border-radius:40px;text-decoration:none;font-weight:700;transition:.3s;box-shadow:0 10px 25px rgba(0,0,0,.2)}
 .btn:hover{transform:scale(1.05);background:#b8923b}
 
-section{
-padding:80px 10%;
-background:white;
-}
+section{padding:80px 10%;background:white}
 section:nth-child(even){background:#f9fafb}
 
-.grid{
-display:grid;
-grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
-gap:30px;
-}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:30px}
 
-.card{
-background:rgba(255,255,255,.8);
-backdrop-filter:blur(12px);
-padding:30px;
-border-radius:18px;
-box-shadow:0 20px 40px rgba(0,0,0,.08);
-transition:.4s;
-}
-.card:hover{
-transform:translateY(-12px) scale(1.02);
-box-shadow:0 40px 60px rgba(0,0,0,.15);
-}
+.card{background:rgba(255,255,255,.8);backdrop-filter:blur(12px);padding:30px;border-radius:18px;box-shadow:0 20px 40px rgba(0,0,0,.08);transition:.4s}
+.card:hover{transform:translateY(-12px) scale(1.02);box-shadow:0 40px 60px rgba(0,0,0,.15)}
 
 ol li{margin-bottom:15px;font-weight:600}
 
-input,textarea{
-width:100%;
-padding:14px;
-margin-bottom:15px;
-border-radius:10px;
-border:1px solid #d1d5db;
-font-size:16px;
-}
+input,textarea{width:100%;padding:14px;margin-bottom:15px;border-radius:10px;border:1px solid #d1d5db;font-size:16px}
 
-footer{
-background:#1e3a8a;
-color:white;
-padding:60px 10%;
-text-align:center;
-font-size:15px;
-}
+footer{background:#1e3a8a;color:white;padding:60px 10%;text-align:center;font-size:15px}
 
-.whatsapp{
-position:fixed;
-bottom:20px;
-right:20px;
-background:#25D366;
-color:white;
-padding:15px 22px;
-border-radius:50px;
-text-decoration:none;
-font-weight:700;
-box-shadow:0 10px 30px rgba(0,0,0,.3);
-transition:.3s;
-}
+.whatsapp{position:fixed;bottom:20px;right:20px;background:#25D366;color:white;padding:15px 22px;border-radius:50px;text-decoration:none;font-weight:700;box-shadow:0 10px 30px rgba(0,0,0,.3);transition:.3s}
 .whatsapp:hover{transform:scale(1.1)}
 
-.reveal{
-opacity:0;
-transform:translateY(40px);
-transition:1s ease;
-}
-.reveal.active{
-opacity:1;
-transform:translateY(0);
+.reveal{opacity:0;transform:translateY(40px);transition:1s ease}
+.reveal.active{opacity:1;transform:translateY(0)}
+
+@media(max-width:768px){
+header{grid-template-columns:1fr;text-align:center}
+h1{font-size:36px}
+h2{font-size:28px}
+.tagline{font-size:18px}
+section{padding:50px 6%}
+.btn{width:100%}
+.grid{grid-template-columns:1fr}
 }
 </style>
 </head>
@@ -137,12 +86,9 @@ transform:translateY(0);
 <div>
 <h1>AssignHub</h1>
 <p class="tagline">Premium Academic & Research Writing Support</p>
-<p>
-We help students, PhD scholars, and researchers transform drafts, data, and ideas into clear, well-structured, publication-ready academic documents — ethically, confidentially, and professionally.
-</p>
+<p>We help students, PhD scholars, and researchers transform drafts, data, and ideas into clear, well-structured, publication-ready academic documents.</p>
 <a class="btn" href="#contact">Get a Free Consultation</a>
 </div>
-
 <div class="card">
 <h3>Trusted Worldwide</h3>
 <p>India • USA • UK • Canada • Australia</p>
@@ -200,9 +146,7 @@ We help students, PhD scholars, and researchers transform drafts, data, and idea
 <a class="whatsapp" href="https://wa.me/919877640754">💬 WhatsApp Us</a>
 
 <script>
-const observer=new IntersectionObserver(entries=>{
-entries.forEach(e=>{if(e.isIntersecting)e.target.classList.add("active")})
-});
+const observer=new IntersectionObserver(entries=>{entries.forEach(e=>{if(e.isIntersecting)e.target.classList.add("active")})});
 document.querySelectorAll(".reveal").forEach(el=>observer.observe(el));
 
 const form=document.getElementById("contact-form");
