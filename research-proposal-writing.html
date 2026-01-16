@@ -3,40 +3,88 @@
 <head>
 <meta charset="UTF-8">
 <title>Research Proposal Writing Services | AssignHub</title>
-<meta name="description" content="Research and grant proposal writing support for funding, PhD admission, and academic projects worldwide.">
+<meta name="description" content="Research and grant proposal writing support for PhD admissions, funding applications, and academic projects worldwide.">
 <link rel="canonical" href="https://assignhub.org/research-proposal-writing.html">
 
 <style>
-body{margin:0;font-family:Segoe UI;background:#ecfeff;color:#042f2e}
-.hero{background:linear-gradient(135deg,#0f766e,#134e4a);color:white;padding:90px 10%;text-align:center}
-.card{background:white;padding:30px;border-radius:20px;box-shadow:0 25px 60px rgba(0,0,0,.12)}
-.slide{animation:slide 1s ease}
-@keyframes slide{from{opacity:0;transform:translateX(-50px)}to{opacity:1;transform:translateX(0)}}
+body{margin:0;font-family:Segoe UI;background:#ecfeff;color:#042f2e;line-height:1.7}
+.hero{background:linear-gradient(135deg,#0f766e,#134e4a);color:white;padding:110px 10%;text-align:center}
+h1{font-size:46px;margin-bottom:20px}
+h2{color:#0f766e}
+.section{padding:80px 10%;background:white}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:30px}
+.card{background:#f0fdfa;padding:30px;border-radius:18px;box-shadow:0 25px 60px rgba(0,0,0,.12);transition:.4s}
+.card:hover{transform:translateY(-10px)}
+.whatsapp{position:fixed;bottom:20px;right:20px;background:#25D366;color:white;padding:14px 20px;border-radius:50px;text-decoration:none;font-weight:700}
+.slide{opacity:0;transform:translateX(-40px);transition:1s}
+.slide.show{opacity:1;transform:translateX(0)}
 </style>
 
 <script type="application/ld+json">
 {
- "@context":"https://schema.org",
- "@type":"FAQPage",
- "mainEntity":[
-  {"@type":"Question","name":"Do you write research proposals?","acceptedAnswer":{"@type":"Answer","text":"Yes. We help prepare academic and grant proposals using your research data."}},
-  {"@type":"Question","name":"Do you help with funding applications?","acceptedAnswer":{"@type":"Answer","text":"Yes. We assist in preparing grant and funding documents."}}
- ]
+"@context":"https://schema.org",
+"@type":"FAQPage",
+"mainEntity":[
+{"@type":"Question","name":"Do you write research proposals?","acceptedAnswer":{"@type":"Answer","text":"Yes. We help prepare structured academic and research proposals using client-provided data."}},
+{"@type":"Question","name":"Do you support grant and funding proposals?","acceptedAnswer":{"@type":"Answer","text":"Yes. We assist with funding proposals, SOPs, and research documentation."}},
+{"@type":"Question","name":"Can you help revise rejected proposals?","acceptedAnswer":{"@type":"Answer","text":"Yes. We refine proposals based on reviewer and committee feedback."}}
+]
 }
 </script>
 </head>
 
 <body>
+
 <div class="hero slide">
-<h1>Research Proposal Writing</h1>
-<p>Clear, persuasive, funding-ready proposals</p>
+<h1>Research Proposal Writing Services</h1>
+<p>Strategic, clear, and submission-ready proposals</p>
 </div>
 
-<div style="padding:80px 10%">
-<div class="card">
-<h2>Why Proposals Matter</h2>
-<p>A well-structured proposal increases acceptance, funding success, and PhD admissions.</p>
+<div class="section slide">
+<h2>Research & Grant Proposal Support</h2>
+<p>
+AssignHub supports students and researchers in preparing compelling research proposals for PhD admissions, academic projects, and grant applications.
+We focus on clarity, feasibility, academic rigor, and alignment with funding or institutional objectives.
+</p>
+</div>
+
+<div class="section slide">
+<h2>Our Proposal Services</h2>
+<div class="grid">
+<div class="card">Research problem formulation</div>
+<div class="card">Objectives & hypothesis development</div>
+<div class="card">Methodology & study design</div>
+<div class="card">Budget & timeline structuring</div>
+<div class="card">Funding-agency alignment</div>
+<div class="card">Proposal editing & formatting</div>
 </div>
 </div>
+
+<div class="section slide">
+<h2>Frequently Asked Questions</h2>
+
+<h3>Do you guarantee proposal approval?</h3>
+<p>No. We provide structured academic support; final decisions depend on institutions and reviewers.</p>
+
+<h3>Is my research idea kept confidential?</h3>
+<p>Yes. All research ideas and documents are handled with strict confidentiality.</p>
+
+<h3>Do you support international funding applications?</h3>
+<p>Yes. We assist researchers applying to funding agencies worldwide.</p>
+</div>
+
+<div class="section slide">
+<h2>Contact AssignHub</h2>
+<p>Email: <a href="mailto:tasks@assignhub.org">tasks@assignhub.org</a></p>
+<p>WhatsApp / Phone: <a href="https://wa.me/919877640754">+91-9877640754</a></p>
+</div>
+
+<a class="whatsapp" href="https://wa.me/919877640754">💬 WhatsApp Us</a>
+
+<script>
+const obs=new IntersectionObserver(e=>e.forEach(x=>x.isIntersecting&&x.target.classList.add("show")));
+document.querySelectorAll(".slide").forEach(el=>obs.observe(el));
+</script>
+
 </body>
 </html>
