@@ -3,40 +3,91 @@
 <head>
 <meta charset="UTF-8">
 <title>Dissertation Editing Services | AssignHub</title>
-<meta name="description" content="Professional dissertation editing, proofreading, and formatting for MSc, MTech and PhD students worldwide.">
+<meta name="description" content="Professional dissertation editing, proofreading, formatting, and academic refinement services for MSc, MTech, and PhD students worldwide.">
 <link rel="canonical" href="https://assignhub.org/dissertation-editing-services.html">
 
 <style>
-body{margin:0;font-family:Segoe UI;background:#fdf4ff;color:#3b0764}
-.hero{background:linear-gradient(135deg,#7e22ce,#581c87);color:white;padding:90px 10%;text-align:center}
-.card{background:white;padding:30px;border-radius:18px;box-shadow:0 20px 40px rgba(0,0,0,.12)}
-.zoom{transition:.5s}
-.zoom:hover{transform:scale(1.05)}
+body{margin:0;font-family:Segoe UI;background:#faf5ff;color:#2e1065;line-height:1.7}
+.hero{background:linear-gradient(135deg,#7e22ce,#581c87);color:white;padding:110px 10%;text-align:center}
+h1{font-size:46px;margin-bottom:20px}
+h2{color:#6b21a8}
+.section{padding:80px 10%;background:white}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:30px}
+.card{background:#fdf4ff;padding:30px;border-radius:18px;box-shadow:0 20px 40px rgba(0,0,0,.12);transition:.4s}
+.card:hover{transform:translateY(-10px)}
+.whatsapp{position:fixed;bottom:20px;right:20px;background:#25D366;color:white;padding:14px 20px;border-radius:50px;text-decoration:none;font-weight:700}
+.fade{opacity:0;transform:translateY(40px);transition:1s}
+.fade.show{opacity:1;transform:translateY(0)}
 </style>
 
 <script type="application/ld+json">
 {
- "@context":"https://schema.org",
- "@type":"FAQPage",
- "mainEntity":[
-  {"@type":"Question","name":"Do you edit dissertations?","acceptedAnswer":{"@type":"Answer","text":"Yes. We provide academic editing, formatting, and proofreading."}},
-  {"@type":"Question","name":"Will my content stay confidential?","acceptedAnswer":{"@type":"Answer","text":"Yes. All files are handled securely and confidentially."}}
- ]
+"@context":"https://schema.org",
+"@type":"FAQPage",
+"mainEntity":[
+{"@type":"Question","name":"Do you edit dissertations?","acceptedAnswer":{"@type":"Answer","text":"Yes. AssignHub provides professional dissertation editing, proofreading, formatting, and academic language refinement."}},
+{"@type":"Question","name":"Will my dissertation remain confidential?","acceptedAnswer":{"@type":"Answer","text":"Yes. All documents are handled securely with strict confidentiality."}},
+{"@type":"Question","name":"Do you follow university formatting guidelines?","acceptedAnswer":{"@type":"Answer","text":"Yes. We format dissertations according to institutional and departmental requirements."}}
+]
 }
 </script>
 </head>
 
 <body>
+
 <div class="hero">
 <h1>Dissertation Editing Services</h1>
-<p>Precision editing. Journal-ready formatting. 100% confidentiality.</p>
+<p>Clarity, structure, and academic polish — without changing your research</p>
 </div>
 
-<div style="padding:80px 10%">
-<div class="card zoom">
+<div class="section fade">
+<h2>Professional Dissertation Editing & Proofreading</h2>
+<p>
+AssignHub provides expert dissertation editing services for postgraduate and doctoral students worldwide.
+We help improve clarity, structure, coherence, academic tone, and formatting while preserving the author’s original research and voice.
+</p>
+<p>
+Our editors work across disciplines including life sciences, medicine, engineering, management, social sciences, and interdisciplinary research.
+</p>
+</div>
+
+<div class="section fade">
 <h2>What We Improve</h2>
-<p>Grammar, structure, citations, flow, clarity, and university formatting compliance.</p>
+<div class="grid">
+<div class="card">Language clarity & academic tone</div>
+<div class="card">Logical flow & structural consistency</div>
+<div class="card">Grammar, punctuation & syntax</div>
+<div class="card">Citation style & reference accuracy</div>
+<div class="card">University formatting compliance</div>
+<div class="card">Plagiarism correction & paraphrasing</div>
 </div>
 </div>
+
+<div class="section fade">
+<h2>Frequently Asked Questions</h2>
+
+<h3>Do you rewrite my dissertation?</h3>
+<p>Yes. We edit, refine, and improve language and structure without altering your original research findings.</p>
+
+<h3>Can you edit urgent dissertations?</h3>
+<p>Yes. Fast-track editing is available for tight academic deadlines.</p>
+
+<h3>Do you support international students?</h3>
+<p>Yes. We work with students from India, the UK, USA, Canada, Australia, and Europe.</p>
+</div>
+
+<div class="section fade">
+<h2>Contact AssignHub</h2>
+<p>Email: <a href="mailto:tasks@assignhub.org">tasks@assignhub.org</a></p>
+<p>WhatsApp / Phone: <a href="https://wa.me/919877640754">+91-9877640754</a></p>
+</div>
+
+<a class="whatsapp" href="https://wa.me/919877640754">💬 WhatsApp Us</a>
+
+<script>
+const obs=new IntersectionObserver(e=>e.forEach(x=>x.isIntersecting&&x.target.classList.add("show")));
+document.querySelectorAll(".fade").forEach(el=>obs.observe(el));
+</script>
+
 </body>
 </html>
